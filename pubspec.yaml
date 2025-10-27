@@ -1,0 +1,54 @@
+name: wazeet
+description: UAE Business Navigator (Flutter + Supabase)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Core
+  supabase_flutter: ^2.6.0
+  flutter_riverpod: ^3.0.3
+  go_router: ^16.3.0
+  http: ^1.2.2
+  intl: ^0.20.1
+  uuid: ^4.4.2
+
+  # UI / Utils
+  file_picker: ^10.3.3
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.3.2
+  flutter_svg: ^2.2.1
+  state_notifier: ^1.0.0
+
+  # Stripe (frontend only)
+  flutter_stripe: ^12.0.2
+  image_picker: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/i18n/en.json
+    - assets/i18n/ar.json
+    - assets/logo/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/logo/icon.png
+  adaptive_icon_background: "#3949AB"
+  adaptive_icon_foreground: assets/logo/icon.png

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title>Wazeet Logo</title>
+  <desc>Rounded indigo tile with a stylized white W</desc>
+  <!-- Background tile -->
+  <defs>
+    <linearGradient id="indigoGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5C6BC0"/>
+      <stop offset="100%" stop-color="#3949AB"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="96" ry="96" fill="url(#indigoGrad)"/>
+
+  <!-- Stylized W -->
+  <polyline points="80,170 160,360 256,220 352,360 432,170"
+            fill="none" stroke="#FFFFFF" stroke-width="44"
+            stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
